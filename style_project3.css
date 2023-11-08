@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    /* top: -12px;
+    left: -6px; */
+    align-items: center;
+    height: 155px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.navbar ul li a:hover {
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    padding: 5px 12px;
+    border-radius: 8px;
+}
+
+.logo {
+    margin: 8px 12px;
+    /* width: 90px; */
+}
+
+.logo img {
+    width: 65px;
+    padding: 5px;
+}
+
+.navbar::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.navbar ul {
+    display: flex;
+    color: white;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+/* section-home*/
+#home {
+    display: flex;
+    flex-direction: column;
+    margin: -12px 2px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url(https://cdn.pixabay.com/photo/2015/07/11/23/13/mercedes-benz-841465_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 78%;
+    width: 100%;
+    z-index: -1;
+    left: 0px;
+    opacity: 0.75;
+}
+
+#home .primaryheading {
+    margin: 35px 2px;
+}
+
+.home-logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 144px;
+    margin-left: -21px;
+}
+
+.logo-box {
+    margin: 5px 25px;
+}
+
+.logo-box img {
+    width: 150px;
+    height: 125px;
+}
+
+.headandtext input {
+    width: 520px;
+    border-radius: 20px;
+    padding: 22px 25px;
+}
+
+/* section: other-services*/
+#other-services {
+    display: flex;
+    flex-direction: row;
+    margin-top: 350px;
+    margin-left: -12px;
+
+}
+
+.box {
+    border: 2px solid red;
+    border-radius: 18px;
+    padding: 5px 16px;
+    margin: 12px 32px
+}
+
+.box p {
+    text-align: center;
+    color: azure;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+}
+
+.btn1 {
+    display: block;
+    margin: 45px auto;
+    padding: 9px 18px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+#box1 {
+    background: url(https://cdn.pixabay.com/photo/2016/10/09/19/19/coins-1726618_1280.jpg);
+    width: 32%;
+
+
+}
+
+#box2 {
+    background: url(https://cdn.pixabay.com/photo/2017/04/01/20/08/showroom-2194371_1280.jpg);
+    width: 32%;
+}
+
+#box3 {
+    background: url(https://cdn.pixabay.com/photo/2017/09/14/22/42/milky-way-2750627_1280.jpg);
+    width: 32%;
+
+}
+
+.h3 {
+    margin: 106px 15px;
+}
+
+/* section: extra-services*/
+#extra-services {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: -12px;
+}
+
+#extra-services::before {
+    content: "";
+    background: url(https://cdn.pixabay.com/photo/2017/08/15/21/32/toolbox-2645700_1280.jpg);
+    width: 100%;
+    height: 410px;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+}
+
+.containers {
+    border: 2px solid green;
+    border-radius: 15px;
+    height: 250px;
+    margin: 88px 16px;
+    background-color: whitesmoke;
+    padding: 12px 6px;
+}
+
+.containers p {
+    text-align: justify;
+    font-size: 1.2rem;
+    padding: 2px 15px;
+}
+
+.containers a {
+    text-decoration: none;
+    padding: 5px 16px;
+    cursor: pointer;
+}
+
+/* refer-videos */
+.refer-video {
+    margin: 20px 12px;
+    display: flex;
+}
+
+.second {
+    padding: 12px 15px;
+
+}
+
+.second-iframe {
+    margin-top: -12px;
+    margin-left: 135px;
+    display: flex;
+    flex-direction: column;
+    padding: 1px 15px;
+
+}
+
+iframe {
+    margin: 12px 35px;
+}
+
+.end {
+    margin-top: 25px;
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* global attributes*/
+.primaryheading {
+    font-size: 3.8rem;
+    color: antiquewhite;
+    font-family: 'Caprasimo', cursive;
+
+}
+
+.secondaryheading {
+    font-size: 3.2rem;
+    text-align: center;
+    color: bisque;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.thirdheading {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.h3 h2 {
+    font-family: 'Caprasimo', cursive;
+    font-size: 2.7rem;
+    margin: -30px 2px;
+}
