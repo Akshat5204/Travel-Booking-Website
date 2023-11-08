@@ -1,2 +1,4 @@
 # Travel-Booking-Website
-travel booking demo website
+a travel booking demo website
+## Usage: 
+for now use vscode live server
